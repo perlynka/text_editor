@@ -70,7 +70,7 @@ class SentenceCountStrategy(TextAnalysisStrategy):
         logger.log(result)
         return result
 ```
-*PunctuationCountStrategy* - стратегія для підрахунук кількості розділових знаків у тексті.
+*PunctuationCountStrategy* - стратегія для підрахунку кількості розділових знаків у тексті.
 ```
 class PunctuationCountStrategy(TextAnalysisStrategy):
     def analyze(self, text):
